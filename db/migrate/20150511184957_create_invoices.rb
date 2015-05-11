@@ -4,7 +4,7 @@ class CreateInvoices < ActiveRecord::Migration
       t.datetime :date
       t.string :company
       t.decimal :tax
-      t.string :sailsperson
+      t.string :salesperson
 
       t.timestamps
     end
